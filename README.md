@@ -1,10 +1,12 @@
 # CE4348-Scheduling-Algorithms
 
-Program to recreate memory scheduling algorithms in a uni-processor environment and measure computing time consumed by each approach. The memory allocation algorithm used for this program is first come first served and compaction is implemented. A fixed partition approach is taken for sake of simplicity. A choice is given to the user as to whether to use predetermined memory partition block sizes or to randomize them.
+Program to recreate memory scheduling algorithms in a uni-processor environment and measure computing time consumed by each approach. The memory allocation algorithm used for this program is first fit and compaction is implemented. A fixed partition approach is taken for sake of simplicity. A choice is given to the user as to whether to use predetermined memory partition block sizes or to randomize them.
 
 # Problem definition
 
 The system has 56 units of memory available.
+
+The algorithms being tested are: first come first served, round robin, shortest process next, and shortest time remaining.
 
 Scheduling is to work as follows:
 1. A task is considered to arrive the first time it is inspected for placing in memory.
